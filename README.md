@@ -1,7 +1,7 @@
 # bigInt_Syracuse<br/>
 Computes syracuse numbers sequence (n÷2 if n even, 3×n + 1 if n odd) on big integers<br/>
 Big integers are stored as a structure:<br/>
- — array of 32 bits words storing numbers up to 100000000<br/>
+ — array of 32 bits words (each one storing numbers up to 100000000)<br/>
  — number of words<br/>
  — number of allocated words<br/><br/>
 Following operations are coded fot big ints:<br/>
